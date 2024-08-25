@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = "Python template for project with poetry and python 3.11"
+authors = ["web-lizzard <czarnous.adrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.x"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
